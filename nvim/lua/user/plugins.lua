@@ -40,8 +40,8 @@ return packer.startup(function(use)
   use 'tomasiser/vim-code-dark' 
   
   use "hrsh7th/nvim-cmp"
-
-
+--  use "HanniWalter/nvim-cheatsheet"
+  use "/home/johannes/Projects/cheatsheet.nvim/"
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
    
